@@ -1,0 +1,17 @@
+package com.ecom.model;
+
+@Entity
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@EqualsAndHashCode
+public class Order {
+
+	@Id
+	@GeneratedValue(strategy =GenerationType.AUTO)
+	private Long id;
+	
+	pr
+	
+}
